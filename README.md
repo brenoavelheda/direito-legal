@@ -428,6 +428,10 @@ O relatório vai para `<pasta de dados>/avaliacao/resultados/`. A rodada passa q
 
 ## Apoie o projeto
 
+A lei parte do princípio de que todo cidadão a conhece: "Ninguém se escusa de cumprir a lei, alegando que não a conhece" ([Lei de Introdução às Normas do Direito Brasileiro, art. 3º](https://www.planalto.gov.br/ccivil_03/decreto-lei/del4657compilado.htm)). No direito penal é igual: "O desconhecimento da lei é inescusável" ([Código Penal, art. 21](https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm)). Quem comete um crime responde por ele mesmo sem saber que era crime; o desconhecimento da lei, no máximo, atenua a pena (art. 65, II).
+
+Na prática, conhecer a lei é muito difícil. São muitas normas, escritas em linguagem técnica e alteradas o tempo todo. O direito-legal quer democratizar o acesso à lei e facilitar o seu cumprimento: qualquer pessoa pode perguntar e receber a resposta com a fonte oficial.
+
 O direito-legal é gratuito e vai continuar gratuito. Se ele foi útil para você, considere apoiar o projeto com qualquer valor. Toda contribuição é muito bem-vinda, e eu agradeço de verdade.
 
 O apoio ajuda a pagar os custos de manter o plugin: a revisão periódica das leis, das regras e das rodadas de avaliação, e o desenvolvimento das funcionalidades sugeridas por quem usa.
