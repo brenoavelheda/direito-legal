@@ -432,6 +432,8 @@ O direito-legal é gratuito e vai continuar gratuito. Se ele foi útil para voc�
 
 O apoio ajuda a pagar os custos de manter o plugin: a revisão periódica das leis, das regras e das rodadas de avaliação, e o desenvolvimento das funcionalidades sugeridas por quem usa.
 
+Para ter uma ideia do custo: cada rodada completa de avaliação, com 60 perguntas, consome o equivalente a cerca de US$ 72 em uso do Claude, pelo preço da API. Até a primeira versão foram duas rodadas, que somaram US$ 144,63. Montar as quatro categorias do acervo custou mais US$ 10,18. Esses valores não incluem o uso durante o desenvolvimento nem as horas de trabalho.
+
 - **GitHub Sponsors:** [github.com/sponsors/brenoavelheda](https://github.com/sponsors/brenoavelheda)
 - **Pix:** `dev_bsouto@pm.me`
 
