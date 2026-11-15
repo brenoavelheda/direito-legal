@@ -22,7 +22,7 @@ description: Preenche uma lacuna da base jurídica — identifica as normas e pr
 - Para cada lei: `baixar_lei(referencia)`. Leis do catálogo aceitam sigla ou número ("CPC", "Lei 8.245/91").
 - Lei fora do catálogo (erro `ReferenciaDesconhecida` pedindo URL): ache a página oficial com WebSearch usando `allowed_domains: ["planalto.gov.br"]` e chame `baixar_lei(<URL do Planalto>)`. Prefira a página **não compilada** quando o Planalto tiver as duas (ela preserva as redações anteriores). Sem página no Planalto, use outra fonte oficial (`camara.leg.br`, `senado.leg.br`, `in.gov.br`).
 - Leia com `ler_artigo` cada artigo que vai apontar. Confira `estado` e `desatualizado`.
-- Resolução, portaria e norma infralegal (CFM, ANVISA, tribunais) entram como fonte oficial pelo domínio do órgão.
+- Resolução, portaria e norma infralegal (conselhos federais de profissão, agências reguladoras, tribunais) entram como fonte oficial pelo domínio do órgão.
 
 ## 4. Precedentes (só *.jus.br)
 

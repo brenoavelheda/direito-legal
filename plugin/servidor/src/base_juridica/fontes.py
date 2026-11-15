@@ -14,8 +14,17 @@ DOMINIOS_OFICIAIS = (
     "camara.leg.br",
     "senado.leg.br",
     "gov.br",
-    "portal.cfm.org.br",
-    "sistemas.cfm.org.br",
+    # Conselhos federais de profissão (autarquias): resoluções e códigos de ética.
+    "oab.org.br",
+    "cfm.org.br",
+    "confea.org.br",
+    "cfc.org.br",
+    "cfp.org.br",
+    "cfo.org.br",
+    "cfmv.org.br",
+    "cofen.gov.br",
+    "cau.org.br",
+    "caubr.gov.br",
 )
 
 

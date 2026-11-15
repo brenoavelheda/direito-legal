@@ -5,7 +5,7 @@ Vocabulário canônico. A tag vai no fim da linha do dado que sustenta a conclus
 | Tag | Quando usar |
 |---|---|
 | `[Planalto]` | Texto de lei obtido do planalto.gov.br **nesta sessão** (`baixar_lei`, `atualizar` ou WebFetch no Planalto). |
-| `[STJ]`, `[STF]`, `[TST]`, `[TJRJ]`… | Precedente ou página obtida do site oficial do tribunal (*.jus.br) **nesta sessão** e conferida (`baixar_precedente` com `conferido: true`, ou WebFetch na página oficial). |
+| `[STJ]`, `[STF]`, `[TST]`, `[TJSP]`… | Precedente ou página obtida do site oficial do tribunal (*.jus.br) **nesta sessão** e conferida (`baixar_precedente` com `conferido: true`, ou WebFetch na página oficial). |
 | `[DataJud]` | Dado de processo obtido do DataJud nesta sessão (v1b). |
 | `[base — capturado AAAA-MM-DD]` | Texto lido da base (`ler_artigo`, `buscar`, `ler_categoria`) — a data é o `capturado_em` devolvido pela ferramenta. |
 | `[base — capturado AAAA-MM-DD — desatualizado]` | Mesmo caso, quando `ler_artigo` devolveu `desatualizado: true` (recaptura falhou e a cópia tem mais de 30 dias). Baixa a certeza. |
