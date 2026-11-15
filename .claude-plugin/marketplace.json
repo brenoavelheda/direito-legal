@@ -1,0 +1,15 @@
+{
+  "name": "direito-legal",
+  "owner": {
+    "name": "brenoavelheda",
+    "url": "https://github.com/brenoavelheda"
+  },
+  "description": "Consultor jurídico pessoal em direito brasileiro",
+  "plugins": [
+    {
+      "name": "direito-legal",
+      "source": "./plugin",
+      "description": "Consultor jurídico pessoal em direito brasileiro: base própria de leis (Planalto) e precedentes (*.jus.br), com citações verificadas"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+**/.venv/
+**/__pycache__/
+.pytest_cache/
+**/.pytest_cache/
+.superpowers/
+
+# Dados do usuário nunca entram neste repositório (ficam em DIREITO_LEGAL_DADOS).
+base/
+perfil.md
+casos/
+avaliacao/
+evals/fumaca.md
+evals/resultados/

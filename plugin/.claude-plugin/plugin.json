@@ -1,0 +1,13 @@
+{
+  "name": "direito-legal",
+  "version": "0.2.0",
+  "description": "Consultor jurídico pessoal em direito brasileiro: base própria de leis (Planalto) e precedentes (*.jus.br), com citações verificadas",
+  "author": {
+    "name": "brenoavelheda",
+    "url": "https://github.com/brenoavelheda"
+  },
+  "homepage": "https://github.com/brenoavelheda/direito-legal",
+  "repository": "https://github.com/brenoavelheda/direito-legal",
+  "license": "Apache-2.0",
+  "keywords": ["direito", "brasil", "jurídico", "legislação", "planalto", "stj", "stf"]
+}

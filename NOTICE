@@ -1,0 +1,9 @@
+direito-legal
+Copyright 2026 brenoavelheda
+
+Partes deste projeto (estrutura de plugins, guardrails e skills) são obra
+derivada de anthropics/claude-for-legal (https://github.com/anthropics/claude-for-legal),
+licenciado sob Apache License 2.0, Copyright 2026 Anthropic PBC.
+
+Os arquivos derivados foram modificados: traduzidos para o português e
+adaptados ao direito brasileiro e ao uso pessoal sem advogado revisor.
