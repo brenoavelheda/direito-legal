@@ -19,8 +19,8 @@ jobs:
       run:
         working-directory: plugin/servidor
     steps:
-      - uses: actions/checkout@v4
-      - uses: astral-sh/setup-uv@v6
+      - uses: actions/checkout@v7
+      - uses: astral-sh/setup-uv@v10
       - name: Testes do servidor
         run: uv run --locked pytest
       - name: Testes da avaliação
