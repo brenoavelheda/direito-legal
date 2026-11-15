@@ -1,0 +1,41 @@
+name: Citação que o verificador lê errado
+description: O verificador reprovou uma citação certa, ou aprovou uma errada.
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Issues são públicas.** Copie só a linha da citação. Não cole a resposta inteira se ela tiver detalhes do seu caso.
+  - type: input
+    id: citacao
+    attributes:
+      label: Citação
+      description: A linha exatamente como saiu na resposta, com a tag.
+      placeholder: "CDC, art. 49, parágrafo único [Planalto]"
+    validations:
+      required: true
+  - type: textarea
+    id: verificador
+    attributes:
+      label: O que o verificador disse
+    validations:
+      required: true
+  - type: textarea
+    id: esperado
+    attributes:
+      label: O que deveria ser
+      description: Por que a citação está certa (ou errada). Um link para o texto oficial ajuda.
+    validations:
+      required: true
+  - type: input
+    id: versao
+    attributes:
+      label: Versão do plugin
+      placeholder: "0.2.0"
+  - type: checkboxes
+    id: privacidade
+    attributes:
+      label: Privacidade
+      options:
+        - label: Não incluí dados pessoais meus nem de outras pessoas.
+          required: true

@@ -1,0 +1,35 @@
+name: Lei que o plugin não lê direito
+description: O download de uma lei do Planalto falhou, ou um artigo saiu faltando ou trocado.
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Issues são públicas.** Não cole nome, CPF, número de processo nem detalhes do seu caso.
+  - type: input
+    id: lei
+    attributes:
+      label: Lei
+      description: Número e ano. Inclua o endereço no Planalto, se tiver.
+      placeholder: "Lei 8.245/1991 — https://www.planalto.gov.br/ccivil_03/leis/l8245.htm"
+    validations:
+      required: true
+  - type: textarea
+    id: problema
+    attributes:
+      label: O que aconteceu
+      description: Mensagem de erro, artigo que faltou ou trecho que saiu diferente do site do Planalto.
+    validations:
+      required: true
+  - type: input
+    id: versao
+    attributes:
+      label: Versão do plugin
+      placeholder: "0.2.0"
+  - type: checkboxes
+    id: privacidade
+    attributes:
+      label: Privacidade
+      options:
+        - label: Não incluí dados pessoais meus nem de outras pessoas.
+          required: true

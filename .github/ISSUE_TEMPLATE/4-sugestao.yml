@@ -1,0 +1,26 @@
+name: Sugestão
+description: Uma lei para o catálogo, uma área do direito ou uma funcionalidade nova.
+labels: [enhancement]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Issues são públicas.** Descreva a situação de forma genérica, sem detalhes do seu caso.
+  - type: textarea
+    id: problema
+    attributes:
+      label: Que problema isso resolve
+      description: A situação em que o plugin hoje não ajuda.
+    validations:
+      required: true
+  - type: textarea
+    id: ideia
+    attributes:
+      label: Como você imagina
+  - type: checkboxes
+    id: privacidade
+    attributes:
+      label: Privacidade
+      options:
+        - label: Não incluí dados pessoais meus nem de outras pessoas.
+          required: true

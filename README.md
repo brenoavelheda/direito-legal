@@ -17,7 +17,8 @@ A base de conhecimento fica no seu computador e cresce com o uso: cada lei baixa
 7. [Privacidade](#privacidade)
 8. [Qualidade e limites](#qualidade-e-limites)
 9. [Para quem quer contribuir](#para-quem-quer-contribuir)
-10. [Licença e créditos](#licença-e-créditos)
+10. [Apoie o projeto](#apoie-o-projeto)
+11. [Licença e créditos](#licença-e-créditos)
 
 ## O que é
 
@@ -424,6 +425,19 @@ O relatório vai para `<pasta de dados>/avaliacao/resultados/`. A rodada passa q
 - Rode os dois conjuntos de testes.
 - Não inclua dado pessoal em código, teste, exemplo ou issue.
 - Mudança que deva chegar a quem já instalou precisa subir o campo `version` em [`plugin/.claude-plugin/plugin.json`](plugin/.claude-plugin/plugin.json). Sem isso, o comando de atualização não entrega a versão nova.
+
+## Apoie o projeto
+
+O direito-legal é gratuito e vai continuar gratuito. Se ele foi útil para você, considere apoiar o projeto com qualquer valor. Toda contribuição é muito bem-vinda, e eu agradeço de verdade.
+
+O apoio ajuda a pagar os custos de manter o plugin: a revisão periódica das leis, das regras e das rodadas de avaliação, e o desenvolvimento das funcionalidades sugeridas por quem usa.
+
+- **GitHub Sponsors:** [github.com/sponsors/brenoavelheda](https://github.com/sponsors/brenoavelheda)
+- **Pix:** `dev_bsouto@pm.me`
+
+O apoio é ao desenvolvimento do software. Ele não dá direito a consulta jurídica nem a atendimento individual.
+
+Obrigado!
 
 ## Licença e créditos
 

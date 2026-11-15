@@ -1,0 +1,45 @@
+name: Erro de instalação ou de uso
+description: O plugin não instala, não inicia ou falha durante uma consulta.
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Issues são públicas.** Não cole nome, CPF, número de processo nem detalhes do seu caso.
+        Este espaço é para problemas do plugin. Ele não responde dúvidas jurídicas.
+  - type: textarea
+    id: passos
+    attributes:
+      label: O que você fez
+      description: Os comandos ou a skill que você usou, na ordem.
+    validations:
+      required: true
+  - type: textarea
+    id: resultado
+    attributes:
+      label: O que aconteceu
+      description: Cole a mensagem de erro exatamente como apareceu.
+    validations:
+      required: true
+  - type: dropdown
+    id: sistema
+    attributes:
+      label: Sistema
+      options:
+        - Windows
+        - Mac
+        - Linux
+    validations:
+      required: true
+  - type: input
+    id: versao
+    attributes:
+      label: Versão do plugin
+      placeholder: "0.2.0"
+  - type: checkboxes
+    id: privacidade
+    attributes:
+      label: Privacidade
+      options:
+        - label: Não incluí dados pessoais meus nem de outras pessoas.
+          required: true
